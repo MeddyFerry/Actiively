@@ -1,0 +1,24 @@
+/* This is to be able to flex the bloc of the  filter;*/
+.filters-container{
+  display : flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* This is to be able to style the buttons of the filters(hiden, ishiden);*/
+
+.filters-styles {
+  width: 8rem ;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.7rem;;
+  background-color:#00B5AD;
+  border-radius: 10px;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: darken(#00B5AD, 10%);
+  }
+}

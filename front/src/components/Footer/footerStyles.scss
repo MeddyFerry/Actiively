@@ -1,0 +1,16 @@
+@use 'src/styles/vars';
+
+.footer {
+    background-color: vars.$primary-color;
+    padding: 1rem;
+    margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &-title {
+        text-align: center;
+        color: vars.$secondary-color;
+    }
+}

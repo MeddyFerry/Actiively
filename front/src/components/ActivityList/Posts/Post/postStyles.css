@@ -1,0 +1,77 @@
+/* This is to be able to flex the elemnts of article;*/
+.container-post {
+  min-width: 18rem;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:auto;
+  -webkit-box-shadow: 0px 10px 13px -7px #333333, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #333333, 5px 5px 15px 5px rgba(0,0,0,0);
+ margin: 1.2rem;
+ border-radius: 1rem;
+ -webkit-transition: ease-in-out 0.2s;
+ -moz-transition: ease-in-out 0.2s;
+ -ms-transition: ease-in-out 0.2s;
+ -o-transition: ease-in-out 0.2s;
+ transition: ease-in-out 0.2s;
+}
+.container-post:hover {
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  transform:scale(1.05);
+}
+/*
+-webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -ms-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s;
+ */
+/* This is to be able to style image;*/
+.image {
+  height:14rem;
+  border-radius: 1.5rem;
+  object-fit: cover;
+}
+
+
+/* This is to be able to position image;*/
+.imagestyle {
+  padding: 1rem;
+}
+
+
+/* This is to be able to style the title;*/
+.post-title {
+  color: #00b5ad;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center; 
+  
+}
+
+.post-organism {
+  font-weight: bold;
+  padding-bottom: 1rem;
+
+}
+
+/* This is to be able to style the code zip;*/
+.post-zip {
+  text-align: left;
+  padding-left: 3rem;
+  padding-top: 0.3rem;
+  font-style: italic;
+}
+
+/* This is to be able to style the price;*/
+.post-price {
+  padding: 0.2rem;
+  text-align: right;
+  font-size: 1em;
+  font-style: italic;
+  }

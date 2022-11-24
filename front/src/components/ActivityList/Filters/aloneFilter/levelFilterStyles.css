@@ -1,0 +1,63 @@
+/* This is to be able to style the name of the filter;*/
+
+.level-title{
+  margin-left: 4rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+}
+
+/* This is to be able to position the buttons; */
+.level-container {
+  margin-left: 6rem;
+}
+
+/* This is to be able to style the buttons;*/
+.cat{
+  margin: 3px;
+  background-color: #00B5AD;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  float: left;
+}
+
+ /* This is to be able to style the buttons;*/
+.cat label {
+  float: left; 
+  line-height: 1em;
+  width: 10rem; 
+  height: 3rem;
+  
+}
+
+/* This is to be able to style the titles of the buttons;*/
+.cat label span {
+  text-align: center;
+  padding: 1em 0;
+  display: block;
+  font-size: 1em;
+}
+
+/* This is to be able to style the checkbox;*/
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #fff !important;
+}
+
+ /* selects all of the text within the input element and changes the color of the text */
+ .cat label input + span {
+  color: #fff;
+}
+/* This is to be able to style the buttons in click;*/
+.action input:checked + span{background-color:#30d7cf;}
+
+
+
+  
+
+  
+
+ 
+  
+

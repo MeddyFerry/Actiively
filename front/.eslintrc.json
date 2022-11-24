@@ -1,0 +1,42 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb",
+      "plugin:react-hooks/recommended"
+  ],
+  "overrides": [
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react"
+  ],
+  "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "max-len": ["warn", { "code": 250, "ignoreComments": true }],
+      "brace-style": ["error", "stroustrup"],
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ],
+      "no-mixed-operators": [
+        "error",
+        {
+          "allowSamePrecedence": true
+        }
+      ],
+      "react/no-access-state-in-setstate": "warn",
+      "react/destructuring-assignment": "warn",
+      "no-unused-vars": "warn"
+  }
+} 

@@ -1,0 +1,53 @@
+@use 'src/styles/vars';
+
+
+.home {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+
+    &-title {
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    text-align: center;
+    }
+}
+
+.field {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+    align-content:  space-around;
+}
+
+.ui.color1.button {
+    background-color: #00b5ad;
+    color: #fff;
+}
+
+.home-image {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.attribution {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}

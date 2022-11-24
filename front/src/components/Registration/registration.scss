@@ -1,0 +1,52 @@
+@use 'src/styles/vars';
+
+.container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 100%;
+    padding-bottom: 3rem;
+  
+
+   
+  
+
+
+    &-title {
+        font-size: 2rem;
+        font-weight: 600;
+        padding-bottom: 1em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    &-form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: center;
+        height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+          padding-bottom: 2rem;
+    
+    }
+}
+.errors {
+    color: #bf1650;
+  }
+
+.errors::before {
+    display: inline;
+    content: "⚠ ";
+  }
+
+
+
+
+  // requete axios 

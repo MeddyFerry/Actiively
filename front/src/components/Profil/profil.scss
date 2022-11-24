@@ -1,0 +1,88 @@
+.organism-page-container {
+    display: flex;
+    justify-content: right;
+}
+
+.organism-section {
+    width: 40%;
+    align-self: center;
+    padding-right: 1rem;
+}
+
+.organism-infos-header {
+	display: flex;
+    align-items: baseline;
+    margin-bottom: 2rem;
+
+    &-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+.organism-container-form {
+    width: 30%;
+}
+
+.ui.color1.button {
+    background-color: #00b5ad;
+    color: #fff;
+    z-index: 0;
+  }
+
+.organism-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.organism-field {
+    margin-bottom: 1.7rem;
+
+    & h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.organism-field h2 {
+    font-weight: bold;
+}
+
+.organism-delete {
+    margin-top: 4rem;
+}
+
+.image-profile {
+    width: 400px;
+    height: auto;
+}
+
+.attribution {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .organism-page-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .organism-section {
+        width: 75%;
+        align-self: end;
+        padding-bottom: 2rem;
+    }
+
+    .image-profile {
+        width: auto;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+}

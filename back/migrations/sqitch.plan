@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=actiively
+
+init_db 2022-10-28T13:09:32Z Gael <gael@gael.com> # add table creation file
+references 2022-10-28T20:03:10Z Gael <gael@gael.com> # adding some refs between tables
+index 2022-10-31T09:53:30Z Gael <gael@gael.com> # adding some indexes
+domain 2022-10-31T10:07:13Z Gael <gael@gael.com> # add some domains

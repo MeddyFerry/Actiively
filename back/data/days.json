@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Samedi",
+    "start_time": "20H00",
+    "end_time": "22H00",
+    "pk_activity": "1"
+  },
+  {
+    "name": "Mardi",
+    "start_time": "20H00",
+    "end_time": "22H00",
+    "pk_activity": "2"
+  },
+  {
+    "name": "Jeudi",
+    "start_time": "17H00",
+    "end_time": "20H00",
+    "pk_activity": "3"
+  },
+  {
+    "name": "Lundi",
+    "start_time": "18H00",
+    "end_time": "20H00",
+    "pk_activity": "4"
+  },
+  {
+    "name": "Jeudi",
+    "start_time": "20H30",
+    "end_time": "22H30",
+    "pk_activity": "5"
+  },
+  {
+    "name": "Mardi",
+    "start_time": "20H15",
+    "end_time": "22H15",
+    "pk_activity": "6"
+  },
+  {
+    "name": "Dimanche",
+    "start_time": "11H00",
+    "end_time": "12H30",
+    "pk_activity": "7"
+  },
+  {
+    "name": "Samedi",
+    "start_time": "14H00",
+    "end_time": "15H30",
+    "pk_activity": "8"
+  },
+  {
+    "name": "Samedi",
+    "start_time": "18H00",
+    "end_time": "19H30",
+    "pk_activity": "9"
+  },
+  {
+    "name": "Lundi",
+    "start_time": "18H00",
+    "end_time": "19H30",
+    "pk_activity": "10"
+  }
+]

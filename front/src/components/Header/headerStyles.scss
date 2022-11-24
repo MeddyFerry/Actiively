@@ -1,0 +1,106 @@
+ @use 'src/styles/vars';
+
+.appheader {
+    background-color: vars.$primary-color;
+    color: vars.$secondary-color;
+    padding: 1.3em 3em;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    &-icon {
+        &:hover {
+            color: darken(vars.$secondary-color, 10%);
+        }
+    }
+
+    &-title {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    &-navbar {
+        display: flex;
+    }
+
+    &-burger {
+        display: none;
+    }
+
+    &-button {
+        background-color: vars.$secondary-color;
+        color: vars.$primary-color;
+        font-weight: bold;
+        padding: 0.5em 0.7em;
+        border-radius: 10px;
+        border: transparent;
+        margin-left: 1rem;
+
+        &-mobile {
+            display: none;
+        }
+
+        &:hover {
+            background-color: darken(vars.$secondary-color, 10%);
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .appheader {
+
+        &-burger {
+        display: block;
+        background-color: transparent;
+        border: none;
+
+            &-loggedout {
+                display: none;
+            }
+
+            &-active {
+                .burger1 {
+                    transform: rotate(45deg);
+                }
+                .burger2 {
+                    opacity: 0;
+                }
+                .burger3 {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+
+        &-button-mobile {
+            display: block;
+
+            &:hover {
+                color: darken(vars.$secondary-color, 10%);
+            }
+        }
+
+        &-navbar {
+            display: flex;
+
+            &-closed {
+                display: none;
+            }
+
+            &-open {
+                flex-direction: column;
+                position: absolute;
+                right: 0.5rem;
+                top: 5.6rem;
+                text-align: end;
+            }
+        }
+    }
+
+    .login-button {
+        display: none;
+    }
+}

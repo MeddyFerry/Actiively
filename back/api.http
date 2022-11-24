@@ -1,0 +1,110 @@
+################################################################################
+# Fichier de test des routes HTTP de l'API
+# Nécessite l'extension REST Client pour VSCode
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+################################################################################
+@endpoint = http://localhost:3001/api/v1
+
+### GET ONE ACTIVITY ###
+GET {{endpoint}}/activity/15
+
+### search by keyword / zip_code ###
+#returns a list of activity cards
+POST {{ endpoint }}/activity/search
+content-type: application/json
+
+{
+    "keyword": "%",
+    "zip_code": "75%"
+}
+
+### Register an organism ###
+POST {{ endpoint }}/organism/register
+Content-Type: application/json
+
+{
+        "email": "yoga.club@gmail.com",
+        "name": "YogaTime",
+        "password": "Tests1234!",
+        "confirm_password": "Tests1234!",
+        "description": "Yogatime le meilleur du yoga",
+        "contact_email": "yoga.club@gmail.com",
+        "phone_number": "0734235141"
+}
+
+### Login an organization ###
+POST {{endpoint}}/organism/login
+Content-Type: application/json
+
+{
+    "email": "yoga.club@gmail.com",
+    "password": "Tests1234!"
+}
+
+### Logout an organization ###
+GET {{endpoint}}/organism/logout
+
+### Get profile of my organization ###
+GET {{endpoint}}/organism/profile
+
+### Get list of events of my organization ###
+GET {{endpoint}}/organism/activities
+
+### Get one activity of my organization ###
+GET {{endpoint}}/organism/activity/21
+
+### Delete one activity of my organization ###
+DELETE {{endpoint}}/organism/activity/25/delete
+
+### Create a new activity for my organization ###
+POST {{endpoint}}/organism/create
+Content-Type: application/json
+
+{
+    "name": "Yoga",
+    "description": "Sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore voluptatibus, magni nisi dicta dolorem, maxime nesciunt.",
+    "address": "30 rue du bois",
+    "zip_code": "44000",
+    "city": "Nantes",
+    "price": "35",
+    "price_type": "la scéance",
+    "gender": "Mixte",
+    "level": "Confirmé",
+    "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80",
+    "day": "Dimanche",
+    "start_time": "10h00",
+    "end_time": "12h00"
+}
+
+### Update one activity of my organization ###
+PATCH {{endpoint}}/organism/activity/4/edit
+Content-Type: application/json
+
+{
+    "name": "",
+    "description": "",
+    "address": "",
+    "zip_code": "",
+    "city": "",
+    "price": "40",
+    "price_type": "",
+    "gender": "",
+    "level": "Débutant",
+    "image_url": "",
+    "day": "",
+    "start_time": "",
+    "end_time": ""
+}
+### Update my profile ###
+PATCH {{endpoint}}/organism/profile/edit
+Content-Type: application/json
+
+{
+        "name": "",
+        "description": "Organisme de Yoga sur Nantes",
+        "contact_email": "",
+        "phone_number": ""
+}
+
+###/!\ Delete my profile /!\###
+DELETE {{endpoint}}/organism/profile/delete

@@ -1,0 +1,58 @@
+[
+    {
+        "email": "sindresorhus@gmail.com",
+        "name": "Tennis4life",
+        "password": "Tests1234!",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum rerum, deleniti iure praesentium, culpa adipisci explicabo voluptates, veritatis quidem sed sequi amet sapiente aliquid corrupti quasi est provident porro?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum rerum, deleniti iure praesentium, culpa adipisci explicabo voluptates, veritatis quidem sed sequi amet sapiente aliquid corrupti quasi est provident porro?",
+        "contact_email": "email@sindresorhus.com",
+        "phone_number": "0702032344"
+    },
+    {
+        "email": "theorganization2@gmail.com",
+        "name": "Danseller",
+        "password": "Tests1234!",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum rerum, deleniti iure praesentium, culpa adipisci explicabo voluptates, veritatis quidem sed sequi amet sapiente aliquid corrupti quasi est provident porro?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum rerum, deleniti iure praesentium, culpa adipisci explicabo voluptates, veritatis quid.",
+        "contact_email": "emailorganisms@gmail.com",
+        "phone_number": "0702035896"
+    },
+    {
+        "email": "monique.pro@gmail.com",
+        "name": "Les Raquettes",
+        "password": "Tests1234!",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore.",
+        "contact_email": "raquettes@gmail.com",
+        "phone_number": "0689820214"
+    },
+    {
+        "email": "vincent.piano@gmail.com",
+        "name": "Do Ré Mi",
+        "password": "Tests1234!",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore.",
+        "contact_email": "doremi@gmail.com",
+        "phone_number": "0625417885"
+    },
+    {
+        "email": "pop@gmail.com",
+        "name": "Les Popys",
+        "password": "Tests1234!",
+        "description": "Lorem ipsum, dolor sit amet consectetur omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore.",
+        "contact_email": "pop@gmail.com",
+        "phone_number": "0642417880"
+    },
+    {
+        "email": "julien@gmail.com",
+        "name": "Judo Fans",
+        "password": "Tests1234!",
+        "description": "Or sit amet consectetur omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore.",
+        "contact_email": "judo@gmail.com",
+        "phone_number": "0633417880"
+    },
+    {
+        "email": "yoko@gmail.com",
+        "name": "Les Yogis",
+        "password": "Tests1234!",
+        "description": "Amet consectetur omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo obcaecati omnis nam odio repellendus consequuntur tempore.",
+        "contact_email": "yogis@gmail.com",
+        "phone_number": "0612417445"
+    }
+]
