@@ -19,10 +19,8 @@ coté back : Node JS, JOI, Sqitch, JSdoc / doc Swagger, CORS, debug, JWT, Postgr
 - Consulter les détails d’une activité
 - Inscription/connexion pour les **organismes**
 - formulaire afin de mettre en ligne une activité
-
-CRUD sur l’activité
-
-CRUD sur profil de l’organisme
+- CRUD sur l’activité
+- CRUD sur profil de l’organisme
 
 ## évolutions potentielles :
 
