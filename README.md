@@ -1,4 +1,4 @@
-#Actiively
+# Actiively
 
 Actiively est un projet ayant pour but de répondre à un besoin d’accessibilité d’informations lorsqu’un usager souhaite entamer une procédure de recherche avec des critères bien précis dans un domaine sportif ou créatif.
 
