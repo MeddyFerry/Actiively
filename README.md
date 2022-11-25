@@ -1,14 +1,14 @@
 # Actiively
 
-Actiively est un projet ayant pour but de répondre à un besoin d’accessibilité d’informations lorsqu’un usager souhaite entamer une procédure de recherche  dans un domaine sportif ou créatif avec des critères bien précis. :climbing:	  
+Actiively est un projet ayant pour but de **répondre à un besoin d’accessibilité d’informations** lorsqu’un usager souhaite entamer une procédure de recherche  dans un domaine sportif ou créatif avec des critères bien précis. :climbing:	  
 
-Trop souvent, ces informations sont dispatchés et les informations importantes qui motivent notre décision sont difficiles d’accés, notament lorsque l’on cherche dans des milieus comme l’associatif.   
+Trop souvent, **ces informations sont dispatchés et les informations importantes qui motivent notre décision sont difficiles d’accés**, notament lorsque l’on cherche dans des milieus comme **l’associatif**.    
 
 ## contexte
 Imaginez vous, lendemain de nouvel an, motivé à entamer une nouvelle activité mais perdre cette envie par une recheche chronophage qui necessite de jongler entre plus de 6 plateformes différentes. Premier mur ! L'élan est coupé et notre motivation inébranlable la veille commence déjà à s'amenuiser.:cursing_face:	    
 
 ## problématique
-C'est confronté directement à cette difficulté lors de nos recherches, que nous avons souhaités apporter une solution pour permettre aux organismes proposant une activité ainsi qu'aux usagers désireux de s’aventurer dans une nouvelle expérience sportive ou créative, une plateforme facile d’accés, facile a prendre en main dans le but de faciliter l’interopérabilité des échanges asso-clients. 🔥
+C'est confronté directement à cette difficulté lors de nos recherches, que nous avons **souhaités apporter une solution** pour permettre aux organismes proposant une activité ainsi qu'aux usagers désireux de s’aventurer dans une nouvelle expérience sportive ou créative, une plateforme facile d’accés, facile a prendre en main dans le but de faciliter l’interopérabilité des échanges asso-clients. 🔥
 
 ## la stack techologique :
 
@@ -31,3 +31,6 @@ coté back : Node JS, JOI, Sqitch, JSdoc / doc Swagger, CORS, debug, JWT, Postgr
 - chatbox pour faciliter la prise de contact entre les utilisateurs et les organismes
 - Google Maps/OpenStreetMap etc … pour rechercher sur une carte 🌍
 - système de up vote/ collaboration pour faire "émerger" certains organismes auprès de la communauté 👍
+
+## collaborateurs 
+- Alaa Eddine, Alexa Dupin, Gaël Duclocher-Rougelot et moi même (Meddy Ferry) 
