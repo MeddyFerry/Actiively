@@ -33,4 +33,4 @@ coté back : Node JS, JOI, Sqitch, JSdoc / doc Swagger, CORS, debug, JWT, Postgr
 - système de up vote/ collaboration pour faire "émerger" certains organismes auprès de la communauté 👍
 
 ## collaborateurs 
-- Alaa Eddine, Alexa Dupin, Gaël Duclocher-Rougelot et moi même (Meddy Ferry) 
+- Alaa Eddine, Alexa Dupin, Gaël Duclocher-Rougelot et Meddy Ferry 
